@@ -13,7 +13,7 @@ public class BaseClass {
 		if(a.equals("chrome"))
 
 		{
-			// WebDriverManager.chromedriver();  if this line is used then there is no need of line no 18 to use
+			// WebDriverManager.chromedriver().setup();  if this line is used then there is no need of line no 18 to use
 
 			System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
 
