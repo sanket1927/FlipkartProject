@@ -31,6 +31,8 @@ public class AddNewAddress {
 
 	ExtentReports reports;
 	ExtentTest test;
+	  
+	
 	
 	
 	@Parameters("browser")
